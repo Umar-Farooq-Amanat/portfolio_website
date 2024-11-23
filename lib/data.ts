@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import gameurl from "@/public/gameurl.png";
 import mortgageurl from "@/public/mortgageurl.png";
 import cryptourl from "@/public/cryptourl.png";
+import nohesiurl from "@/public/nohesi1.png";
+import dashboardurl from "@/public/dashboard.png";
 
 export const links = [
   {
@@ -85,6 +87,23 @@ export const projectsData = [
     imageUrl: mortgageurl,
      link:'https://mortgage-app.netlify.app/'
   },
+  {
+    title: "NoHesi application",
+    description:
+      "Nohesi application simplifies the mortgage process by allowing users to compare rates, calculate payments, and access expert advice, making informed home financing decisions easy.",
+    tags: ["React", "Chakra-UI", "chart.js", "Framer-motion"],
+    imageUrl: nohesiurl,
+     link:'https://www.nohesi.gg/'
+  },
+  {
+    title: "dashboard application",
+    description:
+      "Nohesi application simplifies the mortgage process by allowing users to compare rates, calculate payments, and access expert advice, making informed home financing decisions easy.",
+    tags: ["React", "Chakra-UI", "chart.js", "Framer-motion"],
+    imageUrl: dashboardurl,
+     link:'https://www.sanaracing.co.uk/'
+  }
+ 
 ] as const;
 
 export const skillsData = [
